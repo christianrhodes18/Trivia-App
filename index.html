@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); */
+        @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Open+Sans&display=swap');
+    </style>
+    <script defer src="script.js"></script>
+    <title>Quiz Application</title>
+</head>
+<body>
+    <div class="container">
+        <div id="header-image-container">
+            <img src="content/animals.png" alt="header image" class="header-image">
+        </div>
+        <div id="intro-container">
+            <div class="divider div-transparent div-stopper"></div>
+            <h1 class="title">Animal Trivia</h1>
+            <h2 class="description">
+                How much do you know about the different species of Mother Earth?
+            </h2>
+        </div>
+        <div id="questions-container" class="hide">
+            <img id="questions-image" src="" alt="" class="header-image">
+            <h2 id="question">Question</h2>
+            <div id="answers" class="btn-grid">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+        </div>
+        <div id="result-container" class="hide">
+            <h3 id="result">Correct or Incorrect</h3>
+            <p id="info">Here are the results</p>
+        </div>
+        <div id="end-screen-container" class="hide">
+            <h1 id="score"></h1>
+            <h3 id="score-description"></h3>
+        </div>
+        <div id="interactions-container" class="interactions">
+            <button id="start-btn" class="btn-stylized">Start</button>
+            <button id="next-btn" class="btn-stylized hide">Next</button>
+        </div>
+        <div class="circle hide">
+            <div class="check-mark"></div>
+        </div>
+    </div>
+</body>
+</html>
