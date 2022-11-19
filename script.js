@@ -59,6 +59,7 @@ function resetState() {
 
 function displayQuestion(question) {
     questionsImage.src = question.image
+    questionElement.classList.remove('hide')
     questionElement.innerText = question.question
     question.answers.forEach(answer => {
         nextButton.classList.add('hide')
